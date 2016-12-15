@@ -10,20 +10,22 @@ header{
 	}
 footer{
 	text-align: center;
-	margin-top:64px;
-    height: 120px;
+	margin-top:60px;
+    height: 150px;
     background: #9b8578;
 	margin-bottom:32px;
+	width:1028px;
+	text-style:bold;
 	}
 
 nav{
-	font-size: 40px;
+	font-size: 50px;
 	text-align:center;
 	margin-top:60px;
 	margin-bottom:64px;
 	}
 nav a{
-	font-size:40px;
+	font-size:50px;
 	margin-left: 8px;
 	font-family: 'Dosis', sans-serif;
 	margin-right:8px;
@@ -34,14 +36,22 @@ p{
 	height: 300px;
 	width: 450px; 
 	line-height:160%;
-	color:#9b8578;
+	color:white;
 	margin-top:16px;
 	margin-bottom:16px;
 	font-size: 23px;
-	text-align:left;
-	
+	text-align:middle;
 	}
-	
+p.t1{
+	margin-top:-334px;
+	margin-left:550px;
+	}
+
+
+p.main{
+	color:#9b8578;
+}
+
 
 h1{
 	font-size:64px;
@@ -52,24 +62,22 @@ h1{
 	}
 h2{
 	text-decoration: overline;
-	font-size:30px;
-	text-align:left;
+	font-size:40px;
+	margin-left: 25px;
 	color:#9b8578;
  font-family: 'Dosis';
 	}
 
 img{
-	
 	display: block;
 	border-radius:0.25em;
-	}
+}
 
 ul,ol{
   	list-style-type: none;
 	font-size:20px;
 	color:#9b8578;
-	text-align:right;
-	
+	text-align: center;
 	}
 a{
 	color:#9b8578;
@@ -79,6 +87,11 @@ a:hover{
 	color: #584941;
 	font-size: 45px;
 	transition:0.05s linear;
+	}
+a1:hover{
+	color:#584941;
+	font-size: 24px;
+	transition:1s linerar;
 	}
 #homepage{
 	column-count:2;
@@ -119,6 +132,12 @@ div.image{
     margin: 5px 5px 5px 5px;
     overflow: hidden;	
 	}
+	
+/*div.p1{
+	background-color:  #eae4e1;
+	
+}	*/
+
 body {
 	margin-left: auto;
     margin-right: auto;
